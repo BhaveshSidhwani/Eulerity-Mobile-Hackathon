@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditImageActivity">
+
+    <ImageView
+        android:id="@+id/edit_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:padding="8dp"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/b_w_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/b_w_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+        <Button
+            android:id="@+id/sepia_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/sepia_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+        <Button
+            android:id="@+id/inversion_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/inversion_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/red_tint_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/red_tint_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+        <Button
+            android:id="@+id/green_tint_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/green_tint_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+        <Button
+            android:id="@+id/blue_tint_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/blue_tint_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/input_text"
+            android:inputType="text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <EditText
+            android:id="@+id/x_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/x_text"
+            android:inputType="number"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <EditText
+            android:id="@+id/y_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/y_text"
+            android:inputType="number"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <EditText
+            android:id="@+id/size_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/size_text"
+            android:inputType="number"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <Button
+            android:id="@+id/overlay_text_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/overlay_text"
+            android:padding="4dp"
+            android:layout_marginHorizontal="4dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image_text"
+        android:padding="4dp"
+        android:layout_marginHorizontal="4dp" />
+
+</LinearLayout>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">EulerityMobileHackathon</string>
+    <string name="no_image_text">No Image found!</string>
+    <string name="b_w_text">Black and White</string>
+    <string name="sepia_text">Sepia</string>
+    <string name="inversion_text">Invert Colors</string>
+    <string name="red_tint_text">Red Tint</string>
+    <string name="green_tint_text">Green Tint</string>
+    <string name="blue_tint_text">Blue Tint</string>
+    <string name="overlay_text">Overlay Text</string>
+    <string name="input_text">Input Text</string>
+    <string name="x_text">X</string>
+    <string name="y_text">Y</string>
+    <string name="size_text">Text Size</string>
+    <string name="upload_image_text">Upload Image</string>
 </resources>
